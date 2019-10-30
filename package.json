@@ -4,7 +4,7 @@
   "description": "Starter pack for compiling ES6+ apps to ES5",
   "main": "app.js",
   "scripts": {
-    "deploy": "gh-pages -d microposts",
+    "deploy": "gh-pages -d dist",
     "build": "webpack",
     "start": "webpack-dev-server --output-public-path=/build/",
     "json:server": "json-server --watch api/db.json"
